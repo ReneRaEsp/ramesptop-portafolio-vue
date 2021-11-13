@@ -8,10 +8,10 @@ export default {
   components: {
     Seccion1
   }
+
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style>
 
 </style>

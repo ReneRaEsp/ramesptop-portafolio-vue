@@ -8,20 +8,20 @@
       />
     </a>
     <div class="contLinks">
-      <div class="wrapLI">
-        <a class="link" href="#"> Inicio </a
+      <router-link :to="{ name: 'Inicio' }" class="wrapLI">
+        <p class="link"> Inicio </p
         ><i class="icono fas fa-house-user"></i>
-      </div>
-      <div class="wrapLI">
-        <a class="link" href="#"> Portafolio </a
+      </router-link>
+      <router-link :to="{ name: 'Portafolio' }" class="wrapLI">
+        <p class="link" href="#"> Portafolio </p
         ><i class="icono fas fa-house-user"></i>
-      </div>
-      <div class="wrapLI">
-        <a class="link" href="#"> Contacto </a
+      </router-link >
+      <router-link :to="{ name: 'Contacto' }" class="wrapLI">
+        <p class="link" href="#"> Contacto </p
         ><i class="icono fas fa-house-user"></i>
-      </div>
+      </router-link>
       <div class="wrapLI">
-        <a class="link" href="#"> Github </a
+        <a class="link" href="#" target="_BLANK"> Github </a
         ><i class="icono fas fa-house-user"></i>
       </div>
     </div>
@@ -65,6 +65,7 @@ header {
       display: flex;
       justify-content: space-around;
       align-items: center;
+      text-decoration: none;
 
       .link {
         margin-right: 0.3rem;

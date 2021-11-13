@@ -1,6 +1,6 @@
 <template>
-  <section class="seccion1">
-    <h2> Seccion 1 </h2>
+  <section class="Seccion1">
+    <h2> Seccion1 Contacto </h2>
   </section>
 </template>
 
