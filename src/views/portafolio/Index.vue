@@ -12,6 +12,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+* {
+  background: url('./../../assets/img/fondo2.jpg');
+}
 
 </style>

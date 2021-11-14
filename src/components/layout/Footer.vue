@@ -23,7 +23,7 @@ footer {
   flex-direction: column;
   width: 100%;
   height: 15rem;
-  background: rgba(4, 50, 60, 0.9);
+  background: rgba(4, 40, 50, .9);
   .contCentrado {
     display: flex;
     justify-content: center;
